@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "puzzle1",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--bin",
+                "puzzle1",
+                "--",
+                "./data/puzzle1/puzzle1-input.txt"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        }
+    ]
+}
