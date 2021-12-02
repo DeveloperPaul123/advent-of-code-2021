@@ -7,6 +7,10 @@ edition = "2021"
 name = "puzzle1"
 path = "src/puzzle1/main.rs"
 
+[[bin]]
+name = "puzzle2"
+path = "src/puzzle2/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

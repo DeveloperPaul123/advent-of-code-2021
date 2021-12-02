@@ -18,6 +18,22 @@
                 "$rustc"
             ],
             "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "puzzle2",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--bin",
+                "puzzle2",
+                "--",
+                "./data/puzzle2/puzzle2-input.txt"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
         }
     ]
 }
