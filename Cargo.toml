@@ -11,6 +11,9 @@ path = "src/puzzle1/main.rs"
 name = "puzzle2"
 path = "src/puzzle2/main.rs"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "puzzle3"
+path = "src/puzzle3/main.rs"
 
 [dependencies]
+bitset = "0.1.2"

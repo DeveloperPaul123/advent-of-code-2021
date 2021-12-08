@@ -34,6 +34,22 @@
                 "$rustc"
             ],
             "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "puzzle3",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--bin",
+                "puzzle3",
+                "--",
+                "./data/puzzle3/puzzle3-input.txt"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
         }
     ]
 }
