@@ -1,6 +1,6 @@
 ## Advent of Code 2021
 
-This repository contains solutions to the December 2021 challenges on the [Advent of Code]() website. Solutions have been written in [Rust]() because I know very little able Rust at the time that I am writing this README, and would like to learn more.
+This repository contains solutions to the December 2021 challenges on the [Advent of Code](https://adventofcode.com) website. Solutions have been written in [Rust](https://www.rust-lang.org) because I know very little able Rust at the time that I am writing this README, and would like to learn more.
 
 ## Project Setup
 
